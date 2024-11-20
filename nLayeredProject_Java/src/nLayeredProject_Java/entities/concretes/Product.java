@@ -1,6 +1,8 @@
 package nLayeredProject_Java.entities.concretes;
 
-public class Product {
+import nLayeredProject_Java.entities.abstracts.Entity;
+
+public class Product implements Entity {
 	private int id;
 	private int categoryId;
 	private String name;
