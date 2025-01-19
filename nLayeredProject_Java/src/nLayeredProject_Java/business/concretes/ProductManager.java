@@ -22,7 +22,7 @@ public class ProductManager implements ProductService{
 	public void add(Product product) {
 		
 		if(product.getCategoryId()==1) {
-			System.out.println("Bu kategoride ürün kabul edilmiyor");
+			System.out.println("Bu kategoride ürün alınmıyor");
 			return ;
 		}
 		
