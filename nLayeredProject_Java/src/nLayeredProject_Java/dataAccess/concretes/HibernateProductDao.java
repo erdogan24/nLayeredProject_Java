@@ -9,7 +9,7 @@ public class HibernateProductDao implements ProductDao{
 
 	@Override
 	public void add(Product product) {
-		System.out.println("Hibernate ile eklendi"+ product.getName());
+		System.out.println("Hibernate sayesinde eklendi"+ product.getName());
 		
 	}
 
